@@ -1,0 +1,2 @@
+<app-my-chat-message *ngIf="data.isMy" [data]="data"></app-my-chat-message>
+<app-other-chat-message *ngIf="!data.isMy" [data]="data"></app-other-chat-message>
